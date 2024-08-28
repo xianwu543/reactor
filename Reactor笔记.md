@@ -1,10 +1,3 @@
-# reactor
-该项目是在学校自己学习的。（The project I did in college.）
-
-reactor是一个基于Reactor模式的Linux C++网络服务器框架，参考陈硕老师《Linux多线程服务器编程：使用muduo C++网络库》一书。
-
-
-
 ==**难点在：线程池、智能指针、异步唤醒事件循环、清理空闲的Connection、服务程序的退出。**==
 
 # InetAddress类
@@ -85,6 +78,7 @@ int main()
 绑定器bind：
 
 ```cpp
+
 struct CC	// 类中有普通成员函数。
 {
 	void show(int bh, const string& message) {
